@@ -1,0 +1,18 @@
+:root {
+	--animation-delay: 2s;
+}
+
+.fish {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: -100px;
+  animation: swim 45s var(--animation-delay) infinite linear;
+}
+
+/*fish animation*/
+@keyframes swim{
+  100%{
+    transform: translateX(1400px);
+  }
+}

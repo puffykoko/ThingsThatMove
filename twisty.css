@@ -1,0 +1,32 @@
+.container{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  top: 15%;
+  margin: auto;
+}
+
+.square{
+  width: 94%;
+  height: 94%;
+  position: relative;
+  background-color: white;
+  top: 3%;
+  left: 3%;
+}
+
+.black{
+  background-color: black;
+  animation: spin 25s infinite linear;
+}
+
+.black:hover{
+  animation-play-state: paused;
+}
+
+@keyframes spin{
+  100%{
+    transform: rotate(360deg);
+  }
+}

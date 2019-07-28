@@ -1,0 +1,22 @@
+:root {
+	--animation-delay: 2s;
+}
+
+#box{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-left: 30%;
+  margin-top: 25%;
+
+}
+
+/*fish animation*/
+@keyframes swim{
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

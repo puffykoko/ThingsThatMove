@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height:100%;
+}
+
+html{
+  height: 100%;
+}
+
+img{
+  /*have image span width of container*/
+  width: 100%;
+}
+
+/*links*/
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(200,200,200);
+}
+
+/*website title*/
+
+.title {
+  color: rgb(40,40,40);
+  font-size:25px;
+  font-family: "Roboto";
+  text-align: center;
+
+  margin-bottom: 40px;
+  padding: 10px;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 2.5px;
+
+}
+
+/*navigation bar*/
+
+li.tab {
+  font-family: "Roboto";
+  font-size: 15px;
+  //font-weight: bold;
+  /*space between nav bar options*/
+  margin: 20px 0 20px 0px;
+}
+
+ul.sidenav{
+  list-style-type: none;
+  padding: 30px;
+  margin-right: 80%;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  overflow-x: hidden;
+  background-color: rgb(248,248,248);
+}
+
+/*main content of webpage*/
+.main{
+  margin-left: 20%;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  //background-color: rgb(248,248,248);
+  //background-color: black;
+  position: fixed;
+  overflow: hidden;
+
+}
+
+.info{
+  opacity: .8;
+  background-color: white;
+  width: 30%;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  z-index: 1;
+}
